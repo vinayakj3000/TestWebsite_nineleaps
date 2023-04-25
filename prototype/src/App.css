@@ -1,0 +1,107 @@
+.ClientBanner {
+  width: 100vw;
+}
+
+.Section1 {
+  padding: 8.1944444vw 11.08vh 8.1944444vw 11.08vh;
+  display: flex;
+}
+
+.Section1Left {
+}
+.Section1Right {
+  margin-left: 3vw;
+}
+
+.Section1Image {
+  border-radius: 24px;
+}
+
+.Section1RightHeader {
+  color: #363636;
+  font-size: 32px;
+  line-height: 150%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: 0.5em;
+}
+
+.section1Para {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  color: #717070;
+  margin-bottom: 0.5em;
+
+}
+
+.section1Points {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  color: #717070;
+}
+
+.section2Main {
+  padding:  11.08vh 8.1944444vw ;
+  background: #f9f9ff;
+}
+
+.section2Header {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 150%;
+  color: #363636;
+  text-align: center;
+}
+
+.section2SubHeader {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  color: #717070;
+  text-align: center;
+}
+
+.section2CardWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section2CardIndividual {
+  background: #ffffff;
+  border-radius: 24px;
+  max-width: 18vw;
+  padding: 1vw;
+}
+
+.section2CardsHeader {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150%;
+  color: #363636;
+  text-align: center;
+}
+
+.section2CardsText {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  text-align: center;
+  color: #717070;
+  display: flex;
+  align-items: center;
+}

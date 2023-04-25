@@ -1,0 +1,62 @@
+.Section4Header {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 150%;
+  color: #363636;
+}
+
+.Section4SubHeader {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  text-transform: uppercase;
+  color: #717070;
+}
+
+.section4Main {
+  padding: 11.08vh 8.1944444vw;
+  background: #f9f9ff;
+  display: flex;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 10px;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+.grid-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.grid-card {
+  background: #ffffff;
+  border-radius: 24px;
+  padding: 20px;
+}
+
+.section4CardHeader {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 150%;
+  color: #363636;
+}
+
+.section4CardText {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #717070;
+}

@@ -1,0 +1,58 @@
+.section6Main {
+  padding: 11.08vh 8.1944444vw;
+}
+
+.grid-container6 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.grid-card6 {
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.card-title6 {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  font-feature-settings: "liga" off;
+  color: #18191f;
+}
+
+.card-description6 {
+  font-size: 1.2rem;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  font-feature-settings: "liga" off;
+  color: #18191f;
+}
+
+.card-subdescription6 {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  font-feature-settings: "liga" off;
+  color: #474a57;
+}
+
+.card-title6-bottom{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}

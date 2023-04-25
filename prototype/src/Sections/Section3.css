@@ -1,0 +1,115 @@
+.Section3BannerWrapper {
+  margin-top: 4em;
+  margin-bottom: 4em;
+}
+
+.Section3BannerText {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  font-feature-settings: "liga" off;
+  color: #ffffff;
+}
+
+.Section3BannerMain {
+  padding: 2vw 4vw 2vw 4vw;
+  width: 48vw;
+}
+.Section3BannerButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 18px 88px;
+  gap: 10px;
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  color: #2b58a4;
+}
+
+.Section5BannerMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 19vw;
+  justify-content: center;
+}
+
+.Section5BannerText {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  text-align: center;
+  font-feature-settings: "liga" off;
+  color: #363636;
+}
+
+.Section5BannerButton {
+  align-items: center;
+  padding: 18px 88px;
+  gap: 10px;
+  background: #2b58a4;
+  border: 1px solid #2b58a4;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+}
+
+.diamond-cards-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.diamond-card {
+  position: relative;
+  margin: 0 20px;
+  cursor: pointer;
+}
+
+.diamond-card.selected {
+  transform: translateY(-50px);
+  z-index: 1;
+}
+
+.diamond-shape {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 154.82px;
+height: 96.05px;
+  border: 2px solid black;
+  transform: rotate(45deg);
+  background: #f9f9ff;
+  border-radius: 15.5211px;
+}
+
+.diamond-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.dot {
+  display: block;
+  width: 5px;
+  height: 5px;
+  background-color: black;
+  margin: 5px;
+  border-radius: 50%;
+}
+.card-text {
+  margin-top: 60px;
+  text-align: center;
+}

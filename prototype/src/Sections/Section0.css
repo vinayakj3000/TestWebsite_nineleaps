@@ -1,0 +1,89 @@
+.Section0Main {
+  background: #0f336f;
+}
+
+.Section0Left {
+  display: flex;
+  flex-direction: column;
+  width: 64%;
+  justify-content: center;
+}
+.Section0Header {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 150%;
+  color: #ffffff;
+  margin-top: 1vw;
+}
+
+.Section0SubHeader {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  color: #ffffff;
+}
+
+.Section0SubHeader2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  color: #ffffff;
+}
+
+.Section0Button {
+  width: 298px;
+  height: 66px;
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  margin-top: 3vw;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  text-align: center;
+  text-transform: capitalize;
+  font-feature-settings: "liga" off;
+  color: #2b58a4;
+}
+
+.Section0Right {
+  display: flex;
+  align-items: center;
+  
+}
+
+.Section0Rigdht{
+  display: flex;
+  flex-direction: column;
+}
+
+.laptopTransition{
+  margin-left: 5vw;
+  animation: up-and-down 4s ease-in-out infinite;
+}
+
+@keyframes up-and-down {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.image2Sec1{
+  margin-top: -220px;
+  margin-left: 5vw;
+
+}

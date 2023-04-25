@@ -1,0 +1,73 @@
+.Section7Main {
+  padding: 11.08vh 8.1944444vw;
+  background: #f9f9ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Section7Left {
+  width: 50%;
+}
+
+.Section7Header {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 150%;
+  text-transform: capitalize;
+  font-feature-settings: "liga" off;
+  color: #363636;
+}
+
+.Section7SubHeader {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  font-feature-settings: "liga" off;
+  color: #717070;
+}
+
+.Section7Button {
+  justify-content: center;
+  align-items: center;
+  padding: 18px 88px;
+  gap: 10px;
+  background: #2b58a4;
+  border: 1px solid #2b58a4;
+  border-radius: 8px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  text-align: center;
+  text-transform: capitalize;
+  font-feature-settings: "liga" off;
+  color: #ffffff;
+}
+
+.Section7Right {
+  display: flex;
+  width: 50%;
+  height: max-content;
+}
+
+.image-container {
+  position: relative;
+}
+
+.bottom-image {
+  /* position: absolute; */
+  z-index: 1;
+}
+
+.top-image {
+  position: absolute;
+  z-index: 2;
+  top: 94px;
+  left: 87px;
+}
