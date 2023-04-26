@@ -1,0 +1,46 @@
+.Section5BannerMobileMain {
+  background: radial-gradient(
+      34.12% 50% at 50% 50%,
+      rgba(187, 110, 206, 0.27) 0%,
+      rgba(208, 210, 255, 0) 100%
+    )
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  text-align: center;
+  padding: 5vw;
+}
+
+.Section5BannerMobileText {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 150%;
+  text-align: center;
+  font-feature-settings: "liga" off;
+  color: #363636;
+  margin-top: 1.5em;
+
+}
+
+.Section5BannerMobileButton {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+  align-items: center;
+  padding: 8px 64px;
+  gap: 10px;
+  width: 215px;
+  height: 40px;
+  background: #2b58a4;
+  border: 0.740161px solid #2b58a4;
+  border-radius: 7.97561px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 150%;
+  text-align: center;
+  text-transform: capitalize;
+  font-feature-settings: "liga" off;
+  color: #ffffff;
+}

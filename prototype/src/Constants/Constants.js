@@ -5,6 +5,12 @@ import Section8Card3 from "../Assets/Section8Card3.png";
 import section5Image1 from "../Assets/section5Image1.png";
 import section5Image2 from "../Assets/section5Image2.png";
 
+
+import Section2Image1 from "./../Assets/Section2Image1.png";
+import Section2Image2 from "./../Assets/Section2Image2.png";
+import Section2Image3 from "./../Assets/Section2Image3.png";
+import Section2Image4 from "./../Assets/Section2Image4.png";
+
 export const section0Constants = {
   headerp1:
     "Entrust Your Data Engineering Needs With An Expert In Handling Petabyte-Scale Data",
@@ -13,8 +19,8 @@ export const section0Constants = {
 };
 
 export const section1Constants = {
-  headerp1: "We Help Companies Like Yours",
-  headerp2: "Get Ahead — And Stay There",
+  headerp1: "We Help Companies Like Yours Get Ahead — ",
+  headerp2: "And Stay There",
   para1:
     "Partner with us and match proven data engineering practices with modern technology and revitalize the way you collect, manage, analyse and use your data. We can help build data strategies and help implement them creating incredible business value.",
   point1: "Explore new business models leveraging your data",
@@ -31,18 +37,22 @@ export const section2Constants = {
     "We offer a comprehensive suite of data services that cater to businesses across various industries",
   cards: [
     {
+      image:Section2Image1,
       header: "Data Strategy & Solutions",
       text: "Strategize and enhance decision-making with tailored data architecture and industry-specific solutions.",
     },
     {
+      image:Section2Image2,
       header: "Data Management & Optimization",
       text: "Streamline data collection, storage, and organization while ensuring quality and usability.",
     },
     {
+      image:Section2Image3,
       header: "Data Integration & Transformation",
       text: "Implement data pipelines and migrate to cloud-based infrastructure for seamless data flow and accessibility.",
     },
     {
+      image:Section2Image4,
       header: "Analytics, Insights & Visualization",
       text: "Unlock valuable insights with advanced analytics, visualization tools, and data lake implementation.",
     },
@@ -155,14 +165,14 @@ export const section6Constants = {
   headerp2: "Our Clients",
   cards: [
     {
-      name: "Jenny Wilson",
+      name: "Jenny Wilson 1",
       title: "Vice President",
       text: "We had an incredible experience working with Landify and were impressed they made such a big difference in only three weeks. Our team is so grateful for the wonderful improvements they made and their ability to get familiar with the product concept so quickly. It acted as a catalyst to take our design to the next level and get more eyes on our product.",
     },
     {
-      name: "Jenny Wilson",
+      name: "Jenny Wilson 2",
       title: "Vice President",
-      text: "We had an incredible experience working with Landify and were impressed they made such a big difference in only three weeks. Our team is so grateful for the wonderful improvements they made and their ability to get familiar with the product concept so quickly. It acted as a catalyst to take our design to the next level and get more eyes on our product.",
+      text: " And get more eyes on our product We had an incredible experience working with Landify and were impressed they made such a big difference in only three weeks. Our team is so grateful for the wonderful improvements they made and their ability to get familiar with the product concept so quickly. It acted as a catalyst to take our design to the next level.",
     },
   ],
 };
@@ -193,7 +203,7 @@ export const section8Constants = {
     },
     {
       image: Section8Card3,
-      title: "Porem ipsum dolor sit amet, conse ctetur adipiscing elit.",
+      title: "Po amet, conse ctetur adipiscing elit.",
       text: "Worem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. ",
     },
   ],

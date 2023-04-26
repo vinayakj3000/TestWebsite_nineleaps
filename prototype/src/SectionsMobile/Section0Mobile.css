@@ -1,0 +1,90 @@
+.Section0MobileMain {
+  background: #0f336f;
+  padding: 6.08vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -1px;
+}
+
+.Section0MobileMain2 {
+  background: #0f336f;
+  padding: 6.08vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -1px;
+  height: 76vw;
+}
+
+.Section0HeaderMobile {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 150%;
+  color: #ffffff;
+  margin-top: 1vw;
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.Section0SubHeaderMobile {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 150%;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.Section0ButtonMobile {
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  margin-top: 3vw;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 150%;
+  text-align: center;
+  text-transform: capitalize;
+  font-feature-settings: "liga" off;
+  color: #2b58a4;
+  width: 60vw;
+  height: 13vw;
+  margin-bottom: 0.75rem;
+}
+
+.Section0RigdhtMobile {
+  display: flex;
+  flex-direction: column;
+}
+
+.laptopTransitionMobile {
+  width: 100%;
+  animation: up-and-down 4s ease-in-out infinite;
+}
+
+@keyframes up-and-down {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.image2Sec1Mobile {
+  margin-top: -159px;
+  margin-left: -2vw;
+  width: 100%;
+  /* margin-bottom: 20px; */
+}

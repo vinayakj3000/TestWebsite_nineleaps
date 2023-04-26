@@ -12,7 +12,15 @@ function Section2() {
       <div className="section2CardWrapper">
         {section2Constants.cards.map((item) => (
           <div className="section2CardIndividual">
-            <h1 className="section2CardsHeader">{item.header}</h1>
+            <div className="section2CardIndividualP1Mobile"> 
+              <img
+                src={item.image}
+                alt="icon"
+                className="section2CardImage"
+              ></img>
+
+              <h1 className="section2CardsHeader">{item.header}</h1>
+            </div>
             <p1 className="section2CardsText">{item.text}</p1>
           </div>
         ))}

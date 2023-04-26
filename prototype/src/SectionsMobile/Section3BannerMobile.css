@@ -1,0 +1,33 @@
+.Section3BannerMobileMain {
+  background: linear-gradient(89.89deg, #2b58a4 0.05%, #5ebce7 99.86%);
+  text-align: center;
+  padding: 5vw;
+}
+
+.Section3BannerMobileText {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 150%;
+  text-align: center;
+  font-feature-settings: "liga" off;
+  color: #ffffff;
+}
+
+.Section3BannerMobileButton {
+  margin-top: 5vw;
+  padding: 0.5rem 4rem;
+  background: #ffffff;
+  border: 0.740161px solid #ffffff;
+  border-radius: 7.97561px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 150%;
+  text-align: center;
+  text-transform: capitalize;
+  font-feature-settings: "liga" off;
+  color: #2b58a4;
+}

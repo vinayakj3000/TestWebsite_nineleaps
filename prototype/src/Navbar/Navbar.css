@@ -12,8 +12,13 @@
   flex: 1;
 }
 
-.navbar-logo img {
-  /* max-height: 50px; */
+.navbar-logo2 {
+  flex: 1;
+}
+
+
+.navbar-logo2 img {
+  max-height: 50px;
 }
 
 .navbar-menu {
@@ -33,13 +38,26 @@
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 150%;
   display: flex;
   align-items: center;
   text-align: center;
   color: #ffffff;
   margin-right: 2em;
+}
+
+.navbarItems3 {
+  display: flex;
+font-family: "Inter";
+font-style: normal;
+font-weight: 500;
+font-size: 1rem;
+line-height: 150%;
+display: flex;
+align-items: center;
+text-align: center;
+color: #ffffff;
 }
 
 .navbarItems2{

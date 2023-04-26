@@ -2,7 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 20px;
+  padding: 11.08vh 8.1944444vw;
   background-color: #f8f8f8;
   color: #fff;
 }
@@ -17,7 +17,7 @@
   font-family: "Manrope";
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 150%;
   font-feature-settings: "liga" off;
   color: #363636;
@@ -37,7 +37,7 @@
   font-family: "Manrope";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 150%;
   font-feature-settings: "liga" off;
   color: #717070;
@@ -48,7 +48,7 @@
   font-family: "Manrope";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 150%;
   font-feature-settings: "liga" off;
   color: #717070;
@@ -59,4 +59,80 @@
   border-radius: 8px;
   border: none;
   padding: 10px 8px;
+}
+
+.footerMobile {
+  padding: 6.08vw;
+  background-color: #f8f8f8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.FooterMobileP1{
+  margin-bottom: 5vw;
+}
+
+.FooterMobileP2 {
+  display: flex;
+  /* align-items: center; */
+  /* text-align: center; */
+  margin-bottom: 5vw;
+  gap: 20vw;
+
+}
+
+.footerMobilecol {
+  display: flex;
+  flex-direction: column;
+}
+
+.footerMobilecol ul {
+  list-style: none;
+  padding: 0;
+}
+
+.FooterMobileP3 li {
+  list-style: none;
+  padding: 0;
+
+}
+
+.footerMobilecol li{
+  margin-bottom: 7px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 150%;
+  font-feature-settings: "liga" off;
+  color: #717070;
+}
+
+.FooterMobileP2 h3 {
+  margin-bottom: 10px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 150%;
+  font-feature-settings: "liga" off;
+  color: #363636;
+}
+
+.hrTag{
+  border: 1px solid #EAEAEA;;
+  width: 100%;
+  margin-bottom: 5vw;
+}
+
+.FooterMobileP3 li{
+  margin-bottom: 7px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 150%;
+  font-feature-settings: "liga" off;
+  color: #717070;
 }

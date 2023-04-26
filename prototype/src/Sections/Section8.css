@@ -6,7 +6,7 @@
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 150%;
   display: flex;
   align-items: center;
@@ -14,33 +14,80 @@
   color: #717070;
 }
 
-
 .grid-container8 {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.grid-card8 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.grid-card8 img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.card-title8 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.card-description8 {
+  font-size: 1.2rem;
+}
+
+@media (max-width: 450px) {
+  .Section8Main {
+    padding: 6.08vw;
+
   }
-  
+
+  .Section8SubHeader {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.05rem;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #717070;
+  }
+
+  .grid-container8 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0px;
+  }
+
   .grid-card8 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     background-color: #fff;
-    padding: 20px;
+    padding: 2px;
+    margin-bottom: 1rem;
   }
-  
+
   .grid-card8 img {
     max-width: 100%;
     height: auto;
     margin-bottom: 20px;
   }
-  
+
   .card-title8 {
     font-size: 1.5rem;
-    font-weight: bold;
     margin-bottom: 10px;
   }
-  
+
   .card-description8 {
     font-size: 1.2rem;
   }
+}

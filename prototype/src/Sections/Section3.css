@@ -7,7 +7,7 @@
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
-  font-size: 24px;
+  font-size: 1.5rem;
   line-height: 150%;
   font-feature-settings: "liga" off;
   color: #ffffff;
@@ -15,7 +15,10 @@
 
 .Section3BannerMain {
   padding: 2vw 4vw 2vw 4vw;
-  width: 48vw;
+  width: 53vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 .Section3BannerButton {
   display: flex;
@@ -42,7 +45,7 @@
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
-  font-size: 24px;
+  font-size: 1.5rem;
   line-height: 150%;
   text-align: center;
   font-feature-settings: "liga" off;
@@ -57,7 +60,7 @@
   border: 1px solid #2b58a4;
   border-radius: 8px;
   color: #ffffff;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-family: "Inter";
   font-style: normal;
   font-weight: 600;
@@ -87,7 +90,7 @@
   align-items: center;
   justify-content: center;
   width: 154.82px;
-height: 96.05px;
+  height: 96.05px;
   border: 2px solid black;
   transform: rotate(45deg);
   background: #f9f9ff;
@@ -113,3 +116,5 @@ height: 96.05px;
   margin-top: 60px;
   text-align: center;
 }
+
+
