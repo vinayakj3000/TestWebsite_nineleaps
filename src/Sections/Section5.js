@@ -25,7 +25,7 @@ function Section5() {
         {section5Constants.cards.map((card) => (
           <div className="grid-card5" key={card.image}>
             <img src={card.image} alt={card.title} />
-            <h2 className="Section5CardHeader">{card.header}</h2>
+            <div className="Section5CardHeader">{card.header}</div>
             <p className="Section5CardText">{card.text}</p>
           </div>
         ))}

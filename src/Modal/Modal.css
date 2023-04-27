@@ -1,0 +1,126 @@
+.Modalapp {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.open-modal-btn {
+  background-color: #0077cc;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+}
+
+.modal-content {
+  position: relative;
+
+  background: linear-gradient(
+    153deg,
+    rgba(249, 249, 255, 1) 21%,
+    rgba(249, 249, 255, 1) 44%,
+    rgba(249, 249, 255, 1) 50%,
+    rgba(249, 249, 255, 1) 57%,
+    rgba(249, 249, 255, 1) 65%,
+    rgba(249, 249, 255, 1) 78%,
+    rgba(249, 249, 255, 1) 91%,
+    rgba(249, 249, 255, 1) 94%
+  );
+  padding: 20px;
+  border-radius: 5px;
+  height: 100vh;
+  width: 100%;
+  animation: slide-in 0.5s forwards;
+}
+
+.close-btn {
+  position: absolute;
+  top: 25px;
+  right: 10px;
+  background-color: #2b58a4;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  height: 44px;
+  width: 44px;
+  cursor: pointer;
+}
+
+@keyframes slide-in {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0%);
+  }
+}
+
+.ModalMain {
+  display: flex;
+  flex-direction: column;
+  padding: 5vw 20vw;
+}
+
+.ModalMain h2 {
+  color: #363636;
+  font-size: 1.25rem;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: 0.5em;
+}
+
+.ModalMain h3 {
+  color: #363636;
+  font-size: 1rem;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: 0.5em;
+}
+
+.ModalMain input {
+  background-color: #fff;
+  padding: 1rem 1rem;
+  border-radius: 12px;
+  border: none;
+}
+
+.Section5BannerButton2 {
+  align-items: center;
+  padding: 18px 88px;
+  gap: 10px;
+  background: #2b58a4;
+  border: 1px solid #2b58a4;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 1.25rem;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  margin-top: 2rem;
+  width: 20vw;
+  cursor: pointer;
+}
+
+.btnModalll {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

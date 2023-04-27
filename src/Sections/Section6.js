@@ -17,12 +17,21 @@ function Section6() {
           <div
             className="grid-card6"
             key={card.id}
-            style={{ backgroundImage: `url(${Section6Background})` }}
+            style={{
+              backgroundImage: `url(${Section6Background})`,
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "100% 100%",
+            }}
           >
-            <h2 className="card-title6">{card.text}</h2>
-            <div className="card-title6">
-              <p className="card-description6">{card.name}</p>
-              <p className="card-subdescription6">{card.title}</p>
+            <div className="grid-card6Part1">
+              <img src={section6QuoteMark} style={{ marginTop: "15px" }}></img>
+            </div>
+            <div className="grid-card6Part2">
+              <h2 className="card-title6WebMain">{card.text}</h2>
+              <div className="card-title6Web">
+                <div className="card-description6Web">{card.name}</div>
+                <div className="card-subdescription6Web">{card.title}</div>
+              </div>
             </div>
           </div>
         ))}

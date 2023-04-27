@@ -8,7 +8,7 @@ const Carousel4 = ({ cards }) => {
   useEffect(() => {
     const interval = setInterval(() => {
       goToNextSlide();
-    }, 1000);
+    }, 5000);
     return () => clearInterval(interval);
   }, [currentIndex]);
 

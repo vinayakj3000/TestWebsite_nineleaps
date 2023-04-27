@@ -7,7 +7,9 @@ function Section0Mobile() {
     <div className="Section0MobileMain">
       {" "}
       <p1 className="Section0SubHeader2">
-        Home {">"} Services {">"} Data Engineering{" "}
+        Home {">"} Services {">"}
+        <span style={{ fontWeight: "bold" }}>Data Engineering</span>
+
       </p1>
       <h1 className="Section0HeaderMobile">{section0Constants.headerp1} </h1>
       <p1 className="Section0SubHeaderMobile">{section0Constants.para1}</p1>

@@ -30,7 +30,7 @@ const Carousel5 = ({ cards }) => {
             alt={cards[currentIndex].title}
             style={{ height: "30vw" }}
           />
-          <h2 className="Section5CardHeader">{cards[currentIndex].header}</h2>
+          <div className="Section5CardHeader">{cards[currentIndex].header}</div>
           <p className="Section5CardText">{cards[currentIndex].text}</p>
         </div>
         {/* <img

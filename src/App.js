@@ -29,9 +29,13 @@ import Section0Mobile from "./SectionsMobile/Section0Mobile";
 import Section0MobilePart2 from "./SectionsMobile/Section0MobilePart2";
 import NavbarMobile from "./Navbar/NavbarMobile";
 import { useEffect, useRef, useState } from "react";
+import Modal from "./Modal/Test";
+import Test from "./Modal/Test";
+import Section3New from "./Sections/Section3New";
 
 function App() {
   const [showComponent, setShowComponent] = useState(false);
+  const [showComponentTab, setShowComponentTab] = useState(false);
   const ref = useRef(null);
 
   useEffect(() => {
@@ -42,6 +46,7 @@ function App() {
         setShowComponent(false);
       }
     });
+    console.log("showComponent", showComponent);
 
     observer.observe(ref.current);
 
@@ -51,7 +56,7 @@ function App() {
   }, []);
   return (
     <div className="App" ref={ref}>
-      {showComponent && (
+      {/* {showComponent && (
         <>
           <Navbar />
           <Section0 />
@@ -61,9 +66,11 @@ function App() {
             className="ClientBanner"
           ></img>
           <Section1 />
+
           <Section2 />
           <Section3Banner />
-          <Section4 />
+          <Section4 showComponent={showComponent} />
+
           <Section5 />
           <Section5Banner />
           <Section6 />
@@ -82,16 +89,39 @@ function App() {
             alt="clientBanner"
             className="ClientBanner"
           ></img>
+          <Section1 />
+
+          <Section2 />
           <Section3BannerMobile />
           <Section4Mobile />
           <Section5Mobile />
           <Section5BannerMobile />
           <Section6Mobile />
           <Section7 />
-          <Section8Mobile />
-          <FooterMobile />
+          <Section8Mobile showComponent={showComponent} />
+          <FooterMobile showComponent={showComponent} />
         </>
-      )}
+      )} */}
+<Section3New/>
+      {/* tab */}
+
+      {/* <NavbarMobile />
+      <Section0Mobile />
+      <Section0MobilePart2 />
+      <img src={clientBanner} alt="clientBanner" className="ClientBanner"></img>
+      <Section1 showComponent={showComponent} />
+      <Section2 />
+      <Section3BannerMobile />
+      <Section4 showComponent={showComponentTab} />
+      <Section5 />
+      <Section5BannerMobile />
+      <Section6Mobile />
+      <Section7 />
+      <Section8Mobile showComponent={showComponent} />
+      <FooterMobile showComponent={showComponent} /> */}
+
+
+      {/* <Test/> */}
 
       {/* <Section3 /> */}
       {/* <div className="Section3"></div> */}

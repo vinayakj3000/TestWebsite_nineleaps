@@ -11,7 +11,7 @@
 .Section4SubHeader {
   font-family: "Inter";
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 1.25rem;
   line-height: 150%;
   color: #717070;
@@ -50,7 +50,7 @@
 .section4CardHeader {
   font-family: "Inter";
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 1.5rem;
   line-height: 150%;
   color: #363636;
@@ -69,9 +69,9 @@
   .Section4Header {
     font-family: "Inter";
     font-style: normal;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 1.3rem;
-    /* line-height: 150%; */
+    line-height: 150%;
     color: #363636;
     padding: 0px;
     text-align: center;
@@ -81,7 +81,7 @@
   .Section4SubHeader {
     font-family: "Inter";
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 1.05rem;
     line-height: 150%;
     color: #717070;
@@ -126,7 +126,7 @@
   .section4CardHeader {
     font-family: "Inter";
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 1.5rem;
     line-height: 150%;
     color: #363636;
@@ -139,5 +139,87 @@
     font-size: 1.05rem;
     line-height: 150%;
     color: #717070;
+  }
+}
+
+@media only screen and (min-width: 668px) and (max-width: 1024px) {
+  .Section4Header {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5rem;
+    /* line-height: 150%; */
+    color: #363636;
+    padding: 0px;
+    text-align: center;
+    margin-bottom: 1.5em;
+  }
+
+  .Section4SubHeader {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 150%;
+    color: #717070;
+    display: flex;
+    text-align: center;
+    margin-bottom: 1.5em;
+    justify-content: center;
+  }
+
+  .section4Main {
+    background: #f9f9ff;
+    display: flex;
+    flex-direction: column;
+    padding: 3.22vw;
+  }
+
+  .Section4Right {
+    margin-left: 0em;
+    margin-top: 20vw;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 23px;
+    /* padding-right: 20px; */
+    padding-top: 20px;
+  }
+
+  .grid-row {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .grid-card {
+    background: #ffffff;
+    border-radius: 24px;
+    padding: 20px;
+    /* min-height: 2vw; */
+  }
+
+  .section4CardHeader {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 150%;
+    color: #363636;
+  }
+
+  .section4CardText {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.05rem;
+    line-height: 150%;
+    color: #717070;
+  }
+
+  .section4ImageTab{
+    margin-top: -10vw;
+    width: 100%;
   }
 }

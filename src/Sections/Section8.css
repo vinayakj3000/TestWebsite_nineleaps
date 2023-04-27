@@ -5,7 +5,7 @@
 .Section8SubHeader {
   font-family: "Inter";
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 1.25rem;
   line-height: 150%;
   display: flex;
@@ -28,6 +28,16 @@
   padding: 20px;
 }
 
+.ReadMore {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 150%;
+  color: #2b58a4;
+  text-decoration: underline;
+}
+
 .grid-card8 img {
   max-width: 100%;
   height: auto;
@@ -36,29 +46,135 @@
 
 .card-title8 {
   font-size: 1.5rem;
-  margin-bottom: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 550;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  color: #363636;
+  margin-bottom: 1rem;
 }
 
 .card-description8 {
-  font-size: 1.2rem;
+  font-size: 1.25rem;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  color: #717070;
+  margin-bottom: 1rem;
+}
+.carousel8CardTitle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 150%;
+  text-transform: capitalize;
+  color: #363636;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.carousel8Cardsecription {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 150%;
+  color: #717070;
+  margin-bottom: 1rem;
 }
 
 @media (max-width: 450px) {
   .Section8Main {
     padding: 6.08vw;
-
+    height: 210vw;
   }
 
   .Section8SubHeader {
     font-family: "Inter";
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 1.05rem;
     line-height: 150%;
     display: flex;
     align-items: center;
     text-align: center;
     color: #717070;
+    margin-bottom: 2rem;
+  }
+
+  .carousel8CardTitle {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 150%;
+    text-transform: capitalize;
+    color: #363636;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .carousel8Cardsecription {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 150%;
+    color: #717070;
+    margin-bottom: 1rem;
+  }
+  .grid-container8 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0px;
+  }
+
+  .grid-card8 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fff;
+    padding: 2px;
+    margin-bottom: 1rem;
+  }
+
+  .grid-card8 img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .card-title8 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+
+  .card-description8 {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (min-width: 668px) and (max-width: 1024px) {
+  .Section8Main {
+    padding: 3.22vw;
+  }
+
+  .Section8SubHeader {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #717070;
+    margin-bottom: 2rem;
   }
 
   .grid-container8 {

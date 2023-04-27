@@ -24,7 +24,7 @@
 .Section7SubHeader {
   font-family: "Inter";
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 1.25rem;
   line-height: 150%;
   font-feature-settings: "liga" off;
@@ -105,12 +105,13 @@
   .Section7SubHeader {
     font-family: "Inter";
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 1.25rem;
     line-height: 150%;
     font-feature-settings: "liga" off;
     color: #717070;
     text-align: center;
+    margin-bottom: 2rem;
   }
 
   .Section7Button {
@@ -155,7 +156,86 @@
     /* height: 100%; */
     position: absolute;
     z-index: 2;
-    top: 52px;
-    left: 50px;
+    top: 60px;
+    left: 57px;
+  }
+}
+
+@media only screen and (min-width: 668px) and (max-width: 1024px) {
+  .Section7Main {
+    padding: 3.22vw;
+    background: #f9f9ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .Section7Left {
+    width: 43.6%;
+  }
+
+  .Section7Header {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 150%;
+    text-transform: capitalize;
+    font-feature-settings: "liga" off;
+    color: #363636;
+  }
+
+  .Section7SubHeader {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 150%;
+    font-feature-settings: "liga" off;
+    color: #717070;
+  }
+
+  .Section7Button {
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 5rem;
+    gap: 10px;
+    background: #2b58a4;
+    border: 1px solid #2b58a4;
+    border-radius: 8px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 150%;
+    text-align: center;
+    text-transform: capitalize;
+    font-feature-settings: "liga" off;
+    color: #ffffff;
+  }
+
+  .Section7Right {
+    display: flex;
+    width: 56%;
+    height: max-content;
+  }
+
+  .image-container {
+    position: relative;
+    margin-left: 2vw;
+  }
+
+  .bottom-image {
+    /* position: absolute; */
+    z-index: 1;
+    width: 52vw;
+  }
+
+  .top-image {
+    position: absolute;
+    z-index: 2;
+    top: 89px;
+    left: 78px;
+    width: 34vw;
   }
 }

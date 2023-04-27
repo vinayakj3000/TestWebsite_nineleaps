@@ -39,9 +39,12 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  margin-top: 0.1em;
+  margin-top: 1.1em;
 }
-
+.Section1ImageMobile{
+  width: 4rem;
+  height: 4rem;
+}
 .section1Points {
   font-family: "Inter";
   font-style: normal;
@@ -49,6 +52,7 @@
   font-size: 1.25rem;
   line-height: 150%;
   color: #717070;
+  margin-top: -10px;
 }
 
 .section2Main {
@@ -69,11 +73,12 @@
 .section2SubHeader {
   font-family: "Inter";
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 1.25rem;
   line-height: 150%;
   color: #717070;
   text-align: center;
+  margin-bottom: 2.25rem;
 }
 
 .section2CardWrapper {
@@ -91,11 +96,16 @@
   flex-direction: column;
   align-items: center;
 }
+.section2CardIndividualP1Mobile{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .section2CardsHeader {
   font-family: "Inter";
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 1.5rem;
   line-height: 150%;
   color: #363636;
@@ -135,7 +145,7 @@
     line-height: 150%;
     font-family: "Inter";
     font-style: normal;
-    font-weight: 600;
+    font-weight: 700;
     margin-bottom: 1.5em;
     text-align: center;
   }
@@ -143,7 +153,7 @@
   .section1Para {
     font-family: "Inter";
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 1.15rem;
     line-height: 150%;
     color: #717070;
@@ -158,34 +168,35 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    margin-top: 1.5em;
-    margin-bottom: 1.5em;
+    margin-top: 1.75em;
+    margin-bottom: 1.75em;
   }
 
   .section1Points {
     font-family: "Inter";
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 1.05rem;
     line-height: none;
     color: #717070;
+    margin-top: 0px;
   }
 
   .Section1ImageMobile {
-    width: 18vw;
-    height: 18vw;
+    width: 2rem;
+    height: 2rem;
     margin-left: -3vw;
   }
 
   .section2Main {
-    padding: 11.08vh 8.1944444vw;
+    padding: 6.08vw;
     background: #f9f9ff;
   }
 
   .section2Header {
     font-family: "Inter";
     font-style: normal;
-    font-weight: 600;
+    font-weight: 700;
     line-height: 150%;
     color: #363636;
     text-align: center;
@@ -195,7 +206,7 @@
   .section2SubHeader {
     font-family: "Inter";
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 1.25rem;
     line-height: 150%;
     color: #717070;
@@ -218,14 +229,13 @@
     align-items: center;
     width: 90%;
     max-width: none;
-
   }
 
   .section2CardsHeader {
     font-family: "Inter";
     font-style: normal;
-    font-weight: 500;
-    font-size: 1.15rem;
+    font-weight: 600;
+    font-size: 1.35rem;
     line-height: 150%;
     color: #363636;
     text-align: left;
@@ -235,6 +245,147 @@
     font-family: "Inter";
     font-style: normal;
     font-weight: 400;
+    font-size: 1.15rem;
+    line-height: 150%;
+    text-align: left;
+    color: #717070;
+    display: flex;
+    align-items: center;
+  }
+
+  .section2CardIndividualP1Mobile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4vw;
+    margin-bottom: 4vw;
+  }
+}
+
+@media only screen and (min-width: 668px) and (max-width: 1024px) {
+  .Section1 {
+    padding: 3.22vw;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .Section1Right {
+    margin-left: none;
+  }
+
+  .Section1Image {
+    width: 100%;
+  }
+
+  .Section1RightHeader {
+    color: #363636;
+    font-size: 1.5rem;
+    line-height: 150%;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 1.5em;
+    text-align: center;
+  }
+
+  .section1Para {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.15rem;
+    line-height: 150%;
+    color: #717070;
+    margin-bottom: 1.5em;
+  }
+
+  .section1ParaMobile {
+    text-align: center;
+  }
+
+  .Section1PointsWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+  }
+
+  .section1Points {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.05rem;
+    line-height: none;
+    color: #717070;
+    margin-top: 0px;
+    margin-left: 2vw;
+  }
+
+  .Section1ImageMobile {
+    width: 2rem;
+    height: 2rem;
+    margin-left: 0vw;
+  }
+
+  .section2Main {
+    padding: 3.22vw;
+    background: #f9f9ff;
+  }
+
+  .section2Header {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    color: #363636;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .section2SubHeader {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 150%;
+    color: #717070;
+    text-align: center;
+  }
+
+  .section2CardWrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: none;
+    flex-direction: column;
+    gap: 8vw;
+    margin-right: 3.22vw;
+  }
+
+  .section2CardIndividual {
+    background: #ffffff;
+    border-radius: 38.3342px;
+    padding: 4vw 4vw 4vw 4vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    max-width: none;
+  }
+
+  .section2CardsHeader {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.15rem;
+    line-height: 150%;
+    color: #363636;
+    text-align: left;
+  }
+
+  .section2CardsText {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
     font-size: 1.05rem;
     line-height: 150%;
     text-align: left;
@@ -243,9 +394,9 @@
     align-items: center;
   }
 
-
-  .section2CardIndividualP1Mobile{
+  .section2CardIndividualP1Mobile {
     display: flex;
+    flex-direction: row;
     align-items: center;
     gap: 4vw;
     margin-bottom: 4vw;

@@ -5,7 +5,6 @@ import Section8Card3 from "../Assets/Section8Card3.png";
 import section5Image1 from "../Assets/section5Image1.png";
 import section5Image2 from "../Assets/section5Image2.png";
 
-
 import Section2Image1 from "./../Assets/Section2Image1.png";
 import Section2Image2 from "./../Assets/Section2Image2.png";
 import Section2Image3 from "./../Assets/Section2Image3.png";
@@ -37,22 +36,22 @@ export const section2Constants = {
     "We offer a comprehensive suite of data services that cater to businesses across various industries",
   cards: [
     {
-      image:Section2Image1,
+      image: Section2Image1,
       header: "Data Strategy & Solutions",
       text: "Strategize and enhance decision-making with tailored data architecture and industry-specific solutions.",
     },
     {
-      image:Section2Image2,
+      image: Section2Image2,
       header: "Data Management & Optimization",
       text: "Streamline data collection, storage, and organization while ensuring quality and usability.",
     },
     {
-      image:Section2Image3,
+      image: Section2Image3,
       header: "Data Integration & Transformation",
       text: "Implement data pipelines and migrate to cloud-based infrastructure for seamless data flow and accessibility.",
     },
     {
-      image:Section2Image4,
+      image: Section2Image4,
       header: "Analytics, Insights & Visualization",
       text: "Unlock valuable insights with advanced analytics, visualization tools, and data lake implementation.",
     },
@@ -136,8 +135,8 @@ export const section4Constants = {
 };
 
 export const section5BannerConstants = {
-  headerp1: "Ready to embark on a transformative product",
-  headerp2: "engineering journey?",
+  headerp1: "Ready to embark on a transformative",
+  headerp2: "product engineering journey?",
   button: "Contact Us",
 };
 
@@ -203,7 +202,30 @@ export const section8Constants = {
     },
     {
       image: Section8Card3,
+      title: "Po amet, conse ctetur adipiscing elit m dolor sit amet.",
+      text: "Worem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. ",
+    },
+    {
+      image: Section8Card3,
       title: "Po amet, conse ctetur adipiscing elit.",
+      text: "Worem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. ",
+    },
+  ],
+
+  cards2: [
+    {
+      image: Section8Card1,
+      title: "Phhorem ipsum dolor sit amet, conse ctetur adipiscing elit.",
+      text: "Worem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. ",
+    },
+    {
+      image: Section8Card2,
+      title: "Porem ipsum dolor sit amet, conse ctetur adipiscing elit.",
+      text: "Worem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. ",
+    },
+    {
+      image: Section8Card3,
+      title: "Po amet, conse ctetur adipiscing elit m dolor sit amet.",
       text: "Worem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. ",
     },
   ],

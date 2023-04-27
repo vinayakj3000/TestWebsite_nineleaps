@@ -23,7 +23,8 @@ function Section0() {
       >
         <div className="Section0Left">
           <p1 className="Section0SubHeader2">
-            Home {">"} Services {">"} Data Engineering
+            Home {">"} Services {">"}
+            <span style={{ fontWeight: "bold" }}>Data Engineering</span>
           </p1>
 
           <h1 className="Section0Header">{section0Constants.headerp1} </h1>

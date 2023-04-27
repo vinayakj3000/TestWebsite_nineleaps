@@ -12,16 +12,21 @@
   background-size: cover;
   background-position: center;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+  /* align-items: center; */
   color: white;
   font-size: 1.5rem;
   text-align: center;
 }
 
+.grid-card6Part2 {
+  display: flex;
+  flex-direction: column;
+}
+
 .card-title6 {
-  font-family: "Manrope";
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 1.25rem;
@@ -32,7 +37,7 @@
 
 .card-description6 {
   font-size: 1.2rem;
-  font-family: "Manrope";
+  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   font-size: 1.125rem;
@@ -42,7 +47,7 @@
 }
 
 .card-subdescription6 {
-  font-family: "Manrope";
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 0.875rem;
@@ -57,16 +62,56 @@
   flex-direction: column;
 }
 
+.card-title6WebMain {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 150%;
+  font-feature-settings: "liga" off;
+  color: #18191f;
+  margin-top: 3rem;
+}
 
+.card-title6Web {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 150%;
+  font-feature-settings: "liga" off;
+  color: #18191f;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
 
+.card-description6Web {
+  font-size: 1.2rem;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 150%;
+  font-feature-settings: "liga" off;
+  color: #18191f;
+}
 
+.card-subdescription6Web {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 150%;
+  font-feature-settings: "liga" off;
+  color: #474a57;
+}
 
-
-
-
-
-
-
+@media only screen and (min-width: 668px) and (max-width: 1024px) {
+  .section6Main {
+    padding: 3.22vw;
+  }
+}
 
 @media (max-width: 450px) {
   .section6Main {
@@ -83,27 +128,33 @@
     background-size: cover;
     background-position: center;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+    /* align-items: center; */
     color: white;
     font-size: 1.5rem;
     text-align: center;
   }
 
+  .grid-card6Part2 {
+    display: flex;
+    flex-direction: column;
+  }
+
   .card-title6 {
-    font-family: "Manrope";
+    font-family: "Inter";
     font-style: normal;
     font-weight: 400;
-    font-size: 1.25rem;
+    font-size: 1.15rem;
     line-height: 150%;
     font-feature-settings: "liga" off;
     color: #18191f;
+    margin-top: 2em;
   }
 
   .card-description6 {
     font-size: 1.2rem;
-    font-family: "Manrope";
+    font-family: "Inter";
     font-style: normal;
     font-weight: 700;
     font-size: 1.125rem;
@@ -113,7 +164,7 @@
   }
 
   .card-subdescription6 {
-    font-family: "Manrope";
+    font-family: "Inter";
     font-style: normal;
     font-weight: 400;
     font-size: 0.875rem;

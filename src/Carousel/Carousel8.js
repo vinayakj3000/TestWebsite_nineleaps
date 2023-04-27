@@ -29,8 +29,10 @@ const Carousel8 = ({ cards }) => {
           alt={cards[currentIndex].title}
           style={{ width: "100%" }}
         />
-        <h2>{cards[currentIndex].title}</h2>
-        <p>{cards[currentIndex].text}</p>
+        <div className="carousel8CardTitle">{cards[currentIndex].title}</div>
+        <div className="carousel8Cardsecription">{cards[currentIndex].text}</div>
+        <div className="ReadMore">Read more {">"} </div>
+
       </div>
       {/* <button onClick={goToNextSlide}>Next</button> */}
     </div>

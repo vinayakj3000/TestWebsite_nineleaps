@@ -1,10 +1,4 @@
 .Section5BannerMobileMain {
-  background: radial-gradient(
-      34.12% 50% at 50% 50%,
-      rgba(187, 110, 206, 0.27) 0%,
-      rgba(208, 210, 255, 0) 100%
-    )
-    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
   text-align: center;
   padding: 5vw;
 }

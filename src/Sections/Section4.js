@@ -2,11 +2,9 @@ import React from "react";
 import "./Section4.css";
 import section4Image from "../Assets/Section4Image.png";
 import { section4Constants } from "../Constants/Constants";
+import section4ImageTab from "../Assets/section4ImageTab.png";
 
-
-function Section4() {
-
-
+function Section4(showComponent) {
   return (
     <div className="section4Main">
       <div className="Section4Left">
@@ -28,12 +26,14 @@ function Section4() {
             ))}
           </div>
         </div>
-
-        
       </div>
 
       <div className="Section4Right">
-        <img src={section4Image} alt="section4Image"></img>
+        {!showComponent.showComponent ? (
+          <img src={section4ImageTab} alt="section4ImageTab" className="section4ImageTab"></img>
+        ) : (
+          <img src={section4Image} alt="section4Image"></img>
+        )}
       </div>
     </div>
   );

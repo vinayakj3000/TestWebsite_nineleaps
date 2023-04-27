@@ -6,7 +6,7 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="footer-col">
-        <img src={logo} alt="Logo"  />
+        <img src={logo} alt="Logo" />
 
         <ul>
           <li>Copyright © 2020 Landify UI Kit.</li>
@@ -14,7 +14,7 @@ function Footer() {
         </ul>
       </div>
 
-      <div className="footer-col">
+      <div className="footer-col" style={{ marginLeft: "10vw" }}>
         <h3>Company</h3>
         <ul>
           <li>About us</li>

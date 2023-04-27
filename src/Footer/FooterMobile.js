@@ -2,7 +2,8 @@ import React from "react";
 import "./Footer.css";
 import logo from "../Assets/NineleapsLogo2.png";
 
-function FooterMobile() {
+function FooterMobile(showComponent) {
+  console.log("f",showComponent.showComponent);
   return (
     <footer className="footerMobile">
       <div className="FooterMobileP1">
@@ -29,9 +30,15 @@ function FooterMobile() {
             <li>Status</li>
           </ul>
         </div>
+        {showComponent.showComponent && (
+          <div className="footerMobilecol">
+            <h3>Stay up to date</h3>
+            <input placeholder="Your email address"></input>
+          </div>
+        )}
       </div>
 
-      <hr className="hrTag"/>
+      <hr className="hrTag" />
       <div className="FooterMobileP3">
         <li>All rights reserved</li>
       </div>

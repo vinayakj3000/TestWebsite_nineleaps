@@ -9,7 +9,7 @@ const Carousel6 = ({ cards }) => {
   useEffect(() => {
     const interval = setInterval(() => {
       goToNextSlide();
-    }, 1000);
+    }, 5000);
     return () => clearInterval(interval);
   }, [currentIndex]);
 
@@ -29,12 +29,23 @@ const Carousel6 = ({ cards }) => {
       <div className="card-container">
         <div
           className="grid-card6"
-          style={{ backgroundImage: `url(${Section6Background})` }}
+          style={{
+            backgroundImage: `url(${Section6Background})`,
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "100% 100%",
+          }}
         >
-          <h2 className="card-title6">{cards[currentIndex].text}</h2>
-          <div className="card-title6">
-            <p className="card-description6">{cards[currentIndex].name}</p>
-            <p className="card-subdescription6">{cards[currentIndex].title}</p>
+          <div className="grid-card6Part1">
+            <img src={section6QuoteMark} style={{ marginTop: "-10px" }}></img>
+          </div>
+          <div className="grid-card6Part2">
+            <h2 className="card-title6">{cards[currentIndex].text}</h2>
+            <div className="card-title6N">
+              <div className="card-description6">{cards[currentIndex].name}</div>
+              <div className="card-subdescription6">
+                {cards[currentIndex].title}
+              </div>
+            </div>
           </div>
         </div>
       </div>
