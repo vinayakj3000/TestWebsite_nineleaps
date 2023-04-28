@@ -14,6 +14,7 @@ import Section8Mobile from "../SectionsMobile/Section8Mobile";
 import FooterMobile from "../Footer/FooterMobile";
 import clientBanner from "../Assets/ClientBanner.png";
 import Test2 from "../Sections/Test2";
+import Section0TabPart2 from "../SectionsMobile/Section0TabPart2";
 
 function TabletComponent() {
   const [showComponent, setShowComponent] = useState(false);
@@ -41,7 +42,7 @@ function TabletComponent() {
     <div ref={ref}>
       <NavbarMobile />
       <Section0Mobile />
-      <Section0MobilePart2 />
+      <Section0TabPart2 />
       <img src={clientBanner} alt="clientBanner" className="ClientBanner"></img>
       <Section1 showComponent={showComponent} />
       <Section2 />
