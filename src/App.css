@@ -183,8 +183,8 @@
   }
 
   .Section1ImageMobile {
-    width: 2rem;
-    height: 2rem;
+    width: 3rem;
+    height: 3rem;
     margin-left: -3vw;
   }
 
@@ -262,7 +262,7 @@
   }
 }
 
-@media only screen and (min-width: 668px) and (max-width: 1024px) {
+@media only screen and (min-width: 767px) and (max-width: 1024px) {
   .Section1 {
     padding: 3.22vw;
     display: flex;
@@ -322,8 +322,8 @@
   }
 
   .Section1ImageMobile {
-    width: 2rem;
-    height: 2rem;
+    width: 3rem;
+    height: 3rem;
     margin-left: 0vw;
   }
 

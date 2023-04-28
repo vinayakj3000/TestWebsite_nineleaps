@@ -107,7 +107,7 @@
   color: #474a57;
 }
 
-@media only screen and (min-width: 668px) and (max-width: 1024px) {
+@media only screen and (min-width: 767px) and (max-width: 1024px) {
   .section6Main {
     padding: 3.22vw;
   }

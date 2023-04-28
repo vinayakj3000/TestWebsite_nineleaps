@@ -10,6 +10,19 @@ import Section2Image2 from "./../Assets/Section2Image2.png";
 import Section2Image3 from "./../Assets/Section2Image3.png";
 import Section2Image4 from "./../Assets/Section2Image4.png";
 
+import Section3Small1 from "../Assets/section3/Section3Small1.png";
+import Section3Small2 from "../Assets/section3/Section3Small2.png";
+import Section3Small3 from "../Assets/section3/Section3Small3.png";
+import Section3Small4 from "../Assets/section3/Section3Small4.png";
+import Section3Small5 from "../Assets/section3/Section3Small5.png";
+import Section3Small6 from "../Assets/section3/Section3Small6.png";
+import Section3Large1 from "../Assets/section3/Section3Large1.png";
+import Section3Large2 from "../Assets/section3/Section3Large2.png";
+import Section3Large3 from "../Assets/section3/Section3Large3.png";
+import Section3Large4 from "../Assets/section3/Section3Large4.png";
+import Section3Large5 from "../Assets/section3/Section3Large5.png";
+import Section3Large6 from "../Assets/section3/Section3Large6.png";
+
 export const section0Constants = {
   headerp1:
     "Entrust Your Data Engineering Needs With An Expert In Handling Petabyte-Scale Data",
@@ -62,36 +75,49 @@ export const section3Constants = {
   headerp1:
     "Our Data Engineering Process Follows A Proven, Step-By-Step Approach That",
   headerp2: " Guarantees Success",
+  para1:"We offer a comprehensive suite of data services that cater to businesses across various industries",
   cards: [
     {
       index: 1,
-      header: "Assess",
+      image: Section3Small1,
+      enlargedImage: Section3Large1,
+      header: " Assess",
       text: "Understand your business objectives, data landscape, and pain points.",
     },
     {
       index: 2,
-      header: "Strategize",
-      text: "Understand your business objectives, data landscape, and pain points.",
+      image: Section3Small2,
+      enlargedImage: Section3Large2,
+      header: " Strategize",
+      text: "Develop a customized data strategy that aligns with your goals and vision.",
     },
     {
       index: 3,
-      header: "Analyse",
-      text: "Understand your business objectives, data landscape, and pain points.",
+      image: Section3Small3,
+      enlargedImage: Section3Large3,
+      header: " Analyse",
+      text: "In-depth analysis of existing and potential data sources",
     },
     {
       index: 4,
-      header: "Build",
-      text: "Understand your business objectives, data landscape, and pain points.",
+      image: Section3Small4,
+      enlargedImage: Section3Large4,
+      header: " Build",
+      text: "Create a robust data architecture and pipeline design that meets your requirements.",
     },
     {
       index: 5,
-      header: "Execute",
-      text: "Understand your business objectives, data landscape, and pain points.",
+      image: Section3Small5,
+      enlargedImage: Section3Large5,
+      header: " Execute",
+      text: "Deploy tailored data solutions that optimize performance with the right DataOps Strategy.",
     },
     {
       index: 6,
-      header: "Maintain",
-      text: "Understand your business objectives, data landscape, and pain points.",
+      image: Section3Small6,
+      enlargedImage: Section3Large6,
+      header: " Maintain",
+      text: "Provide ongoing support & maintenance to ensure the continued success of your data initiatives.",
     },
   ],
 };

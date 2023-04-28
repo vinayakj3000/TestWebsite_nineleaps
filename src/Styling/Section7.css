@@ -161,7 +161,7 @@
   }
 }
 
-@media only screen and (min-width: 668px) and (max-width: 1024px) {
+@media only screen and (min-width: 767px) and (max-width: 1024px) {
   .Section7Main {
     padding: 3.22vw;
     background: #f9f9ff;
