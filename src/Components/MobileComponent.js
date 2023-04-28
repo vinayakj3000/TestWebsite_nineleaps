@@ -51,7 +51,7 @@ function MobileComponent() {
 
       <Section2 />
       <Section3BannerMobile />
-      <Section3mobile />
+      {/* <Section3mobile /> */}
 
       <Section4Mobile />
       <Section5Mobile />
