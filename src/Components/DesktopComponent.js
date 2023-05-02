@@ -15,6 +15,8 @@ import clientBanner from "../Assets/ClientBanner.png";
 import Section3New from "../Sections/Section3New";
 import ImageGallery from "../Sections/ImageGallery";
 import Test2 from "../Sections/Test2";
+import Banner from "../Test/Banner";
+import TN from "../Test/TN";
 
 function DesktopComponent() {
   const [showComponent, setShowComponent] = useState(false);
@@ -38,7 +40,8 @@ function DesktopComponent() {
   }, []);
   return (
     <div ref={ref}>
-      <Navbar />
+      {/* <Navbar /> */}
+      <TN/>
       <Section0 />
       <img src={clientBanner} alt="clientBanner" className="ClientBanner"></img>
       <Section1 />
@@ -56,6 +59,7 @@ function DesktopComponent() {
       <Section7 />
       <Section8 />
       <Footer />
+
       {/* <Section3New/> */}
     </div>
   );

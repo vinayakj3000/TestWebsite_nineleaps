@@ -6,7 +6,7 @@ import Modal from "../Modal/Modal";
 
 function Section5Banner() {
   const [showModal, setShowModal] = useState(false);
-
+console.log("showModal",showModal);
   const handleButtonClick = () => {
     setShowModal(true);
   };

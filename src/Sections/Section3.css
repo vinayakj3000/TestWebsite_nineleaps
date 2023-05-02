@@ -3,6 +3,8 @@
   margin-bottom: 4em;
 }
 
+
+
 .Section3BannerText {
   font-family: "Inter";
   font-style: normal;
@@ -20,17 +22,27 @@
   flex-direction: column;
   align-items: flex-start;
 }
+
 .Section3BannerButton {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 18px 88px;
-  gap: 10px;
+  padding: 0.75rem 5rem;
+  gap: 20px;
   background: #ffffff;
   border: 1px solid #ffffff;
   border-radius: 8px;
   color: #2b58a4;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 150%;
+  text-align: center;
+  text-transform: capitalize;
+  font-feature-settings: "liga" off;
+  cursor: pointer;
 }
 
 .Section5BannerMain {
@@ -65,7 +77,6 @@
   font-style: normal;
   font-weight: 600;
   cursor: pointer;
-
 }
 
 .diamond-cards-container {
@@ -117,6 +128,141 @@
 .card-text {
   margin-top: 60px;
   text-align: center;
+}
+
+@media (min-width: 1500px) {
+  .Section3BannerWrapper {
+    margin-top: 4em;
+    margin-bottom: 4em;
+  }
+
+  .Section3BannerText {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.75rem;
+    line-height: 150%;
+    font-feature-settings: "liga" off;
+    color: #ffffff;
+    margin-bottom: 2rem;
+  }
+
+  .Section3BannerMain {
+    padding: 0vw 8.16vw;
+    width: 50vw;
+    height: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .Section3BannerButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 88px;
+    gap: 10px;
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 150%;
+    text-align: center;
+    text-transform: capitalize;
+    font-feature-settings: "liga" off;
+    color: #2b58a4;
+  cursor: pointer;
+
+  }
+
+  .Section5BannerMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 19vw;
+    justify-content: center;
+  }
+
+  .Section5BannerText {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.75rem;
+    line-height: 150%;
+    text-align: center;
+    font-feature-settings: "liga" off;
+    color: #363636;
+  }
+
+  .Section5BannerButton {
+    align-items: center;
+    padding: 18px 88px;
+    gap: 10px;
+    background: #2b58a4;
+    border: 1px solid #2b58a4;
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 1.25rem;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .diamond-cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .diamond-card {
+    position: relative;
+    margin: 0 20px;
+    cursor: pointer;
+  }
+
+  .diamond-card.selected {
+    transform: translateY(-50px);
+    z-index: 1;
+  }
+
+  .diamond-shape {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 154.82px;
+    height: 96.05px;
+    border: 2px solid black;
+    transform: rotate(45deg);
+    background: #f9f9ff;
+    border-radius: 15.5211px;
+  }
+
+  .diamond-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+  }
+
+  .dot {
+    display: block;
+    width: 5px;
+    height: 5px;
+    background-color: black;
+    margin: 5px;
+    border-radius: 50%;
+  }
+  .card-text {
+    margin-top: 60px;
+    text-align: center;
+  }
 }
 
 

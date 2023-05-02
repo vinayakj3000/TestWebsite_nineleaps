@@ -36,12 +36,14 @@
   margin: 20px;
   position: relative;
   transition: transform 0.5s ease-in-out;
+  cursor: pointer;
 }
 
 .shape.enlarged {
   /* height: 199.8148193359375px; */
   width: 221px;
   margin-top: 3px;
+  cursor: pointer;
   /* z-index: 1; */
 }
 
@@ -90,7 +92,7 @@
     font-family: "Inter";
     font-style: normal;
     font-weight: 600;
-    font-size: 1.5rem;
+    font-size: 2rem;
     /* line-height: 150%; */
     color: #363636;
     padding: 0px;
@@ -98,3 +100,90 @@
   text-align: center;
   }
   
+
+  @media (min-width:1500px) {
+    .container {
+      display: flex;
+      justify-content: center;
+      padding:  0vw 10vw 0vw 10vw;
+
+    }
+    
+    .row {
+      display: flex;
+      background-image: url("../Assets/Section3backgroud.png");
+      background-size: 85% auto;
+      background-repeat: no-repeat;
+      background-position: center top 5.6vw ;
+      margin-left: -4vw;
+      /* justify-content: center; */
+      /* width: 100%; */
+      /* min-height: 23vw; */
+    }
+
+    .shape {
+      width: 10vw;
+      margin: 20px;
+      position: relative;
+      transition: transform 0.5s ease-in-out;
+    }
+    
+    .shape.enlarged {
+      /* height: 199.8148193359375px; */
+      width: 17.5rem;
+      margin-top: 3px;
+      /* z-index: 1; */
+    }
+    
+    .text {
+      opacity: 0;
+      transition: opacity 0.5s ease-out;
+
+    }
+    
+    .text.visible {
+      opacity: 1;
+      transition: opacity 0.5s ease-out;
+      /* bottom: -90px; */
+      margin-left: 3vw;
+    }
+    
+    .Section3TextHeader {
+      margin-top: -1.7rem;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 1.75rem;
+      line-height: 150%;
+      display: flex;
+      justify-content: center;
+      color: #2b58a4;
+    }
+    
+    .Section3TextDescription {
+      margin-top: 1rem;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 1.5rem;
+      line-height: 150%;
+      display: flex;
+      align-items: left;
+      margin-left: 1rem;
+      color: #2b58a4;
+    }
+    
+    .Section3Header {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 2rem;
+        /* line-height: 150%; */
+        color: #363636;
+        padding: 0px;
+      padding: 6.08vh 8.1944444vw;
+      text-align: center;
+      }
+      
+    
+  }

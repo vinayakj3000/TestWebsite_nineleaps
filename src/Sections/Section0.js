@@ -14,17 +14,17 @@ function Section0() {
         style={{
           backgroundImage: `url(${section0back})`,
           backgroundRepeat: "no-repeat",
-          backgroundSize: "50%",
+          backgroundSize: "59%",
           height: "29.6rem",
-          backgroundPosition: "right center",
+          backgroundPosition: "100% 74%",
           padding: "2vw 8.19vw 2vw 8.19vw",
           display: "flex",
         }}
       >
         <div className="Section0Left">
           <p1 className="Section0SubHeader2">
-            Home {">"} Services {">"}
-            <span style={{ fontWeight: "bold" }}>Data Engineering</span>
+            Home {">"} Services {">"}{" "}
+            <span style={{ fontWeight: "bold" }}> Data Engineering</span>
           </p1>
 
           <h1 className="Section0Header">{section0Constants.headerp1} </h1>

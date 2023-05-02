@@ -19,7 +19,8 @@ function Section4(showComponent) {
             {section4Constants.cards.map((item) => (
               <div className="grid-row">
                 <div className="grid-card">
-                  <h1 className="section4CardHeader">{item.header}</h1>
+                  <div className="section4CardHeader">{item.headerp1}</div>
+                  <div className="section4CardHeader2">{item.headerp2}</div>
                   <p1 className="section4CardText">{item.text}</p1>
                 </div>
               </div>

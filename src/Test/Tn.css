@@ -1,0 +1,44 @@
+nav {
+    background-color: #0f336f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 8.19vw;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    transition: background-color 0.5s ease, color 0.5s ease, opacity 0.5s ease;
+  }
+  
+  nav.is-scrolled {
+    background-color: white;
+    color: #0f336f;
+    position: fixed;
+    top: 0;
+    width: 90%;
+    position: fixed;
+    z-index: 1000;
+  }
+  
+  nav.is-faded {
+    display: flex;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    opacity: 0.9;
+    color: #0f336f;
+    margin-right: 2em;
+    
+  }
+  
+  .Nlogo{
+    display: flex;
+  }

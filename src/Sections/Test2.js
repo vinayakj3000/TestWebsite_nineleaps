@@ -1,9 +1,20 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Shape from "./Shapes";
 import { section3Constants } from "../Constants/Constants";
+import "./Test2.css";
 
 export default function Test2() {
   const [selected, setSelected] = useState(1);
+  useEffect(() => {
+    const interval = setInterval(() => {
+      if (selected > 6) {
+        setSelected(1);
+      } else {
+        setSelected(selected + 1);
+      }
+    }, 2000);
+    return () => clearInterval(interval);
+  }, [selected]);
 
   const handleSelect = (id) => {
     setSelected(id);

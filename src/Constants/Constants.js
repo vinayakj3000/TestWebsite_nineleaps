@@ -10,14 +10,14 @@ import Section2Image2 from "./../Assets/Section2Image2.png";
 import Section2Image3 from "./../Assets/Section2Image3.png";
 import Section2Image4 from "./../Assets/Section2Image4.png";
 
-import Section3Small1 from "../Assets/section3/Section3Small1.png";
-import Section3Small2 from "../Assets/section3/Section3Small2.png";
+import Section3Small1 from "../Assets/section3/Section3Small2.png";
+import Section3Small2 from "../Assets/section3/Section3Small1.png";
 import Section3Small3 from "../Assets/section3/Section3Small3.png";
 import Section3Small4 from "../Assets/section3/Section3Small4.png";
 import Section3Small5 from "../Assets/section3/Section3Small5.png";
 import Section3Small6 from "../Assets/section3/Section3Small6.png";
-import Section3Large1 from "../Assets/section3/Section3Large1.png";
-import Section3Large2 from "../Assets/section3/Section3Large2.png";
+import Section3Large1 from "../Assets/section3/Section3Large2.png";
+import Section3Large2 from "../Assets/section3/Section3Large1.png";
 import Section3Large3 from "../Assets/section3/Section3Large3.png";
 import Section3Large4 from "../Assets/section3/Section3Large4.png";
 import Section3Large5 from "../Assets/section3/Section3Large5.png";
@@ -46,7 +46,7 @@ export const section2Constants = {
   headerp1: "Transform your business operations with",
   headerp2: " Modern Data Engineering",
   para1:
-    "We offer a comprehensive suite of data services that cater to businesses across various industries",
+    "Your business demands timely data and meaningful analysis, and we can help you provide it. Achieve unparalleled control over your data and create impactful solutions that address real business challenges.",
   cards: [
     {
       image: Section2Image1,
@@ -75,7 +75,8 @@ export const section3Constants = {
   headerp1:
     "Our Data Engineering Process Follows A Proven, Step-By-Step Approach That",
   headerp2: " Guarantees Success",
-  para1:"We offer a comprehensive suite of data services that cater to businesses across various industries",
+  para1:
+    "We offer a comprehensive suite of data services that cater to businesses across various industries",
   cards: [
     {
       index: 1,
@@ -134,27 +135,33 @@ export const section4Constants = {
 
   cards: [
     {
-      header: "Customer Satisfaction",
+      headerp1: "Customer ",
+      headerp2: " Satisfaction",
       text: "Utilising the latest frameworks and technologies, we deliver user-friendly, scalable, and secure solutions tailored to your needs.",
     },
     {
-      header: "Agile Methodology",
+      headerp1: "Agile ",
+      headerp2: " Methodology",
       text: "Our agile approach ensures continuous optimization and the delivery of the highest-quality results.",
     },
     {
-      header: "Dedicated Teams",
+      headerp1: "Dedicated ",
+      headerp2: " Teams",
       text: "Our skilled data engineers are committed to providing top-notch business solutions across various frameworks and technologies.",
     },
     {
-      header: "Integrity & Transparency",
+      headerp1: "Integrity &",
+      headerp2: " Transparency",
       text: "We value your ideas and vision, maintaining open communication and incorporating your valuable input throughout the project.",
     },
     {
-      header: "Flexible Engagement Model",
+      headerp1: "Flexible ",
+      headerp2: " Engagement Model",
       text: "We offer clients the freedom to choose from diverse engagement and hiring models, avoiding rigid constraints.",
     },
     {
-      header: "Competitive Pricing",
+      headerp1: "Competitive ",
+      headerp2: " Pricing",
       text: "Our cost-effective rates, combined with exceptional quality, ensure the best value in the industry.",
     },
   ],

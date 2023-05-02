@@ -4,6 +4,8 @@ import { section3Constants } from "../Constants/Constants";
 import Section3Small1 from "../Assets/section3/Section3Small1.png";
 
 function Shapes({ id, selected, onClick, onClose }) {
+ 
+
   const handleClick = () => {
     if (selected) {
       onClose();

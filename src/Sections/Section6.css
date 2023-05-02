@@ -71,6 +71,7 @@
   font-feature-settings: "liga" off;
   color: #18191f;
   margin-top: 3rem;
+  text-align: left;
 }
 
 .card-title6Web {
@@ -105,6 +106,57 @@
   line-height: 150%;
   font-feature-settings: "liga" off;
   color: #474a57;
+  display: flex;
+
+  align-items: flex-start;
+}
+
+@media (min-width: 1500px) {
+  .card-title6WebMain {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 150%;
+    font-feature-settings: "liga" off;
+    color: #18191f;
+    margin-top: 3rem;
+    text-align: left;
+  }
+
+  .card-title6Web {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 150%;
+    font-feature-settings: "liga" off;
+    color: #18191f;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .card-description6Web {
+    font-size: 1.2rem;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 150%;
+    font-feature-settings: "liga" off;
+    color: #18191f;
+  }
+
+  .card-subdescription6Web {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 150%;
+    font-feature-settings: "liga" off;
+    color: #474a57;
+  }
 }
 
 @media only screen and (min-width: 767px) and (max-width: 1024px) {
