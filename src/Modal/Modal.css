@@ -4,7 +4,6 @@
   align-items: center;
   justify-content: center;
 }
-
 .open-modal-btn {
   background-color: #0077cc;
   color: #fff;
@@ -14,11 +13,10 @@
   font-size: 1rem;
   cursor: pointer;
 }
-
 .modal {
   position: fixed;
-  top: 0;
-  left: 0;
+  /* top: 0; */
+  /* left: 0; */
   height: 100%;
   width: 100%;
   display: flex;
@@ -27,10 +25,8 @@
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 9999;
 }
-
 .modal-content {
   position: relative;
-
   background: linear-gradient(
     153deg,
     rgba(249, 249, 255, 1) 21%,
@@ -48,7 +44,6 @@
   width: 100%;
   animation: slide-in 0.5s forwards;
 }
-
 .close-btn {
   position: absolute;
   top: 25px;
@@ -61,7 +56,6 @@
   width: 44px;
   cursor: pointer;
 }
-
 @keyframes slide-in {
   from {
     transform: translateY(100%);
@@ -70,13 +64,11 @@
     transform: translateY(0%);
   }
 }
-
 .ModalMain {
   display: flex;
   flex-direction: column;
   padding: 5vw 20vw;
 }
-
 .ModalMain h2 {
   color: #363636;
   font-size: 1.25rem;
@@ -85,7 +77,6 @@
   font-weight: 600;
   margin-bottom: 0.5em;
 }
-
 .ModalMain h3 {
   color: #363636;
   font-size: 1rem;
@@ -94,14 +85,12 @@
   font-weight: 600;
   margin-bottom: 0.5em;
 }
-
 .ModalMain input {
   background-color: #fff;
   padding: 1rem 1rem;
   border-radius: 12px;
   border: none;
 }
-
 .Section5BannerButton2 {
   align-items: center;
   padding: 18px 88px;
@@ -118,7 +107,6 @@
   width: 20vw;
   cursor: pointer;
 }
-
 .btnModalll {
   display: flex;
   align-items: center;

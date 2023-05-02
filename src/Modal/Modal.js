@@ -1,6 +1,5 @@
 import React from "react";
 import "./Modal.css";
-
 const Modal = ({ onClose }) => {
   return (
     <div className="modal">
@@ -16,10 +15,8 @@ const Modal = ({ onClose }) => {
           <input placeholder="Enter your full name"></input>
           <h3>Email Address</h3>
           <input placeholder="Enter Your email address"></input>
-
           <h3>Organization</h3>
           <input placeholder="Enter your organziation name"></input>
-
           <h3>Message(Optional)</h3>
           <input placeholder="Enter your message"></input>
           <div className="btnModalll">
@@ -32,5 +29,4 @@ const Modal = ({ onClose }) => {
     </div>
   );
 };
-
-export default Modal;
+export default Modal
