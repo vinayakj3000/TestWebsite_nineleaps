@@ -48,6 +48,7 @@
   text-transform: capitalize;
   font-feature-settings: "liga" off;
   color: #ffffff;
+  cursor: pointer;
 }
 
 .Section7Right {
@@ -131,6 +132,7 @@
     text-transform: capitalize;
     font-feature-settings: "liga" off;
     color: #ffffff;
+    cursor: pointer;
   }
 
   .Section7Right {
@@ -212,6 +214,7 @@
     text-transform: capitalize;
     font-feature-settings: "liga" off;
     color: #ffffff;
+    cursor: pointer;
   }
 
   .Section7Right {
@@ -291,6 +294,7 @@
     text-transform: capitalize;
     font-feature-settings: "liga" off;
     color: #ffffff;
+    cursor: pointer;
   }
 
   .Section7Right {

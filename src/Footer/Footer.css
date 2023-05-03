@@ -41,6 +41,7 @@
   line-height: 150%;
   font-feature-settings: "liga" off;
   color: #717070;
+  cursor: pointer;
 }
 
 .footer-col a {

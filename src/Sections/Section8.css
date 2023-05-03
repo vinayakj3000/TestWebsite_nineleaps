@@ -36,6 +36,7 @@
   line-height: 150%;
   color: #2b58a4;
   text-decoration: underline;
+  cursor: pointer;
 }
 
 .grid-card8 img {

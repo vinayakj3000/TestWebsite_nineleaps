@@ -54,10 +54,11 @@
   text-align: center;
   text-transform: capitalize;
   font-feature-settings: "liga" off;
-  color: #0F336E;
+  color: #0f336e;
   width: 60vw;
   height: 13vw;
   margin-bottom: 0.75rem;
+  cursor: pointer;
 }
 
 .Section0RigdhtMobile {
@@ -150,6 +151,7 @@
     width: 33vw;
     height: 8vw;
     margin-bottom: 0.75rem;
+    cursor: pointer;
   }
 
   .Section0RigdhtMobile {
