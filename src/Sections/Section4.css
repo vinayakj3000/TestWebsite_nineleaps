@@ -44,13 +44,10 @@
   background: #ffffff;
   border-radius: 24px;
   padding: 20px;
-  cursor: pointer;
+  /* cursor: pointer; */
   /* min-height: 2vw; */
 }
-.grid-card:hover {
-  box-shadow: 0px 40px 60px rgba(0, 0, 0, 0.08);
-  background: #F8F8F8;
-}
+
 
 
 .section4CardHeader {

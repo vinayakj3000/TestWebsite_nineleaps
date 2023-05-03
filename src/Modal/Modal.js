@@ -2,7 +2,7 @@ import React from "react";
 import "./Modal.css";
 const Modal = ({ onClose }) => {
   return (
-    <div className="modal">
+    <div className="Modalapp">
       <div className="modal-content">
         {/* <button className="close-btn" onClick={onClose}>
           Close

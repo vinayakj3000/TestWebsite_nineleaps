@@ -53,6 +53,7 @@
   text-transform: capitalize;
   font-feature-settings: "liga" off;
   color: #2b58a4;
+  cursor: pointer;
 }
 
 .Section0Right {
