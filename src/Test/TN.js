@@ -54,7 +54,7 @@ function TN() {
         <div className={isScrolled ? "navbarItems5" : "navbarItems2"}>
           About
         </div>
-        <div>Contact Us</div>
+        <div className={isScrolled ? "navbarItems5" : "navbarItems2"}>Contact Us</div>
       </div>
     </nav>
   );

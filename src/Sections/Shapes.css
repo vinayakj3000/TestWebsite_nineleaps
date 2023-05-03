@@ -4,6 +4,10 @@
   padding:  0vw 10vw 0vw 10vw;
 }
 
+.secton3new{
+  margin-left: 2.3vw;
+}
+
 .row {
   display: flex;
   background-image: url("../Assets/Section3backgroud.png");

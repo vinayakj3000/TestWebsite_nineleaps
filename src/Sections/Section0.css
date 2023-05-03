@@ -1,6 +1,6 @@
 .Section0Main {
   background: #0f336f;
-  margin-top: 8.37vw;
+  /* margin-top: 8.37vw; */
 }
 
 .Section0Left {
@@ -90,7 +90,7 @@
 @media (min-width: 1500px) {
   .Section0Main {
     background: #0f336f;
-  margin-top: 5.37vw;
+  /* margin-top: 5.37vw; */
 
   }
 
